@@ -1,0 +1,123 @@
+<svg width="680" height="520" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="680" height="520" rx="10" fill="#0d0d0b"/>
+
+  <!-- Title bar -->
+  <rect width="680" height="38" rx="10" fill="#1a1a16"/>
+  <rect y="28" width="680" height="10" fill="#1a1a16"/>
+  <rect y="37" width="680" height="1" fill="#2a2a24"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="19" r="6" fill="#28c840"/>
+
+  <!-- Window title -->
+  <text x="340" y="23" text-anchor="middle" font-family="monospace" font-size="11" fill="#444440" letter-spacing="0.5">scripted@dev — bash — 80×24</text>
+
+  <!-- Left gutter -->
+  <line x1="28" y1="52" x2="28" y2="500" stroke="#2a2a24" stroke-width="0.8"/>
+
+  <!-- PROMPT 1 -->
+  <text x="44" y="76" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">~/</text>
+  <text x="68" y="76" font-family="monospace" font-size="13" fill="#555550">❯</text>
+  <text x="84" y="76" font-family="monospace" font-size="13" fill="#e8e8e2">whoami</text>
+
+  <!-- OUTPUT 1 -->
+  <text x="44" y="98" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">scripted</text>
+  <text x="112" y="98" font-family="monospace" font-size="13" fill="#c0c0bb">// frontend dev &amp; ui/ux</text>
+
+  <!-- PROMPT 2 -->
+  <text x="44" y="128" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">~/</text>
+  <text x="68" y="128" font-family="monospace" font-size="13" fill="#555550">❯</text>
+  <text x="84" y="128" font-family="monospace" font-size="13" fill="#e8e8e2">cat about.txt</text>
+
+  <!-- OUTPUT 2 -->
+  <text x="44" y="150" font-family="monospace" font-size="13" fill="#c0c0bb">i build websites and whatever else seems interesting.</text>
+  <text x="44" y="168" font-family="monospace" font-size="13" fill="#c0c0bb">code goes from thought to thing. usually busy with ideas.</text>
+  <text x="44" y="186" font-family="monospace" font-size="13" fill="#c0c0bb">if you need something made, just ask.</text>
+
+  <!-- PROMPT 3 -->
+  <text x="44" y="218" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">~/</text>
+  <text x="68" y="218" font-family="monospace" font-size="13" fill="#555550">❯</text>
+  <text x="84" y="218" font-family="monospace" font-size="13" fill="#e8e8e2">ls stack/</text>
+
+  <text x="44" y="240" font-family="monospace" font-size="13" fill="#555550">drwxr-xr-x  7 items</text>
+
+  <!-- TECH PILLS ROW 1 -->
+  <!-- TypeScript -->
+  <rect x="44" y="250" width="104" height="24" rx="4" fill="#1a3a5c" stroke="#3a7bd5" stroke-width="0.8"/>
+  <text x="96" y="266" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#5c9cf5">TypeScript</text>
+
+  <!-- React -->
+  <rect x="156" y="250" width="74" height="24" rx="4" fill="#1a2e3a" stroke="#61dafb" stroke-width="0.8"/>
+  <text x="193" y="266" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#61dafb">React</text>
+
+  <!-- Tailwind -->
+  <rect x="238" y="250" width="108" height="24" rx="4" fill="#0d3028" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="292" y="266" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#38bdf8">Tailwind CSS</text>
+
+  <!-- Python -->
+  <rect x="354" y="250" width="72" height="24" rx="4" fill="#2a1f0d" stroke="#f7c948" stroke-width="0.8"/>
+  <text x="390" y="266" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#f7c948">Python</text>
+
+  <!-- Java -->
+  <rect x="434" y="250" width="56" height="24" rx="4" fill="#2e1a0d" stroke="#e8832a" stroke-width="0.8"/>
+  <text x="462" y="266" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#e8832a">Java</text>
+
+  <!-- TECH PILLS ROW 2 -->
+  <!-- PostgreSQL -->
+  <rect x="44" y="282" width="98" height="24" rx="4" fill="#1a1f38" stroke="#6c9bc9" stroke-width="0.8"/>
+  <text x="93" y="298" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#6c9bc9">PostgreSQL</text>
+
+  <!-- HTML/CSS -->
+  <rect x="150" y="282" width="84" height="24" rx="4" fill="#2e1a0d" stroke="#e44d26" stroke-width="0.8"/>
+  <text x="192" y="298" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#e44d26">HTML / CSS</text>
+
+  <!-- PROMPT 4 -->
+  <text x="44" y="330" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">~/</text>
+  <text x="68" y="330" font-family="monospace" font-size="13" fill="#555550">❯</text>
+  <text x="84" y="330" font-family="monospace" font-size="13" fill="#e8e8e2">cat setup.conf</text>
+
+  <!-- OUTPUT 4 -->
+  <text x="44" y="352" font-family="monospace" font-size="13" fill="#555550">EDITOR=</text>
+  <text x="100" y="352" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">"neovim"</text>
+  <text x="185" y="352" font-family="monospace" font-size="13" fill="#555550">ALT=</text>
+  <text x="220" y="352" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">"cursor"</text>
+
+  <text x="44" y="370" font-family="monospace" font-size="13" fill="#555550">FOCUS=</text>
+  <text x="96" y="370" font-family="monospace" font-size="13" fill="#c0c0bb">"frontend dev + ui/ux"</text>
+
+  <!-- PROMPT 5 -->
+  <text x="44" y="400" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">~/</text>
+  <text x="68" y="400" font-family="monospace" font-size="13" fill="#555550">❯</text>
+  <text x="84" y="400" font-family="monospace" font-size="13" fill="#e8e8e2">cat links.txt</text>
+
+  <!-- OUTPUT 5 -->
+  <text x="44" y="422" font-family="monospace" font-size="13" fill="#555550">github   →</text>
+  <text x="130" y="422" font-family="monospace" font-size="13" fill="#5c9cf5">github.com/Scripted-db</text>
+
+  <text x="44" y="440" font-family="monospace" font-size="13" fill="#555550">web      →</text>
+  <text x="130" y="440" font-family="monospace" font-size="13" fill="#5c9cf5">scripted.info</text>
+
+  <!-- FINAL PROMPT -->
+  <text x="44" y="472" font-family="monospace" font-size="13" fill="#4af626" font-weight="bold">~/</text>
+  <text x="68" y="472" font-family="monospace" font-size="13" fill="#555550">❯</text>
+
+  <!-- Blinking cursor -->
+  <rect x="84" y="459" width="8" height="16" rx="1" fill="#4af626">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Status bar -->
+  <rect x="0" y="498" width="680" height="22" fill="#1a1a16"/>
+  <rect x="0" y="497" width="680" height="1" fill="#2a2a24"/>
+  <rect x="0" y="508" width="680" height="12" fill="#1a1a16"/>
+  <rect x="0" y="498" width="80" height="22" fill="#4af626" opacity="0.15"/>
+  <text x="12" y="513" font-family="monospace" font-size="11" fill="#444440">NORMAL</text>
+  <text x="100" y="513" font-family="monospace" font-size="11" fill="#444440">README.md</text>
+  <text x="576" y="513" font-family="monospace" font-size="11" fill="#444440" text-anchor="end">ln 25  col 3</text>
+  <text x="636" y="513" font-family="monospace" font-size="11" fill="#444440">utf-8</text>
+
+</svg>
